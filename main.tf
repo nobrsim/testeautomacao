@@ -6,7 +6,7 @@ resource "aws_instance" "web" {
   subnet_id                   = "subnet-0ed82a1bd06d01c40"
   ami                         = "ami-0279c3b3186e54acd"
   instance_type               = var.tipo
-  key_name                    = "public_key_simone_bastion_virginia_tf"
+  key_name                    = "public_key_teste_bastion_virginia_tf"
   associate_public_ip_address = true
   vpc_security_group_ids      = ["sg-0d64ad87b05bfd46e"]
   root_block_device {
